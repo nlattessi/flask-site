@@ -9,3 +9,6 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello from Python Anywhere!!!'
 
+@app.route('/nahu')
+def nahu():
+    return 'hola pibe!'
